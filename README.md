@@ -47,7 +47,7 @@ ss-local -c config.json --plugin obfs-local --plugin-opts "obfs=http;obfs-host=w
 On the server:
 
 ```bash
-ss-server -c config.json --plugin obfs-server --plugin-opts "obfs=http"
+ss-server -c config.json -i tun0 --plugin obfs-server --plugin-opts "obfs=http"
 ```
 
 ### Standalone mode
