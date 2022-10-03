@@ -1,4 +1,4 @@
 [submodule "libcork"]
 	path = libcork
-	url = https://github.com/shadowsocks/libcork.git
+	url = git@github.com:shadowsocks/libcork.git
     ignore = dirty
